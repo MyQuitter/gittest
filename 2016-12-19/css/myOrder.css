@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*
+*
+*我的订单
+*/
+
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+section label{
+    display: block;
+    float: left;
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 12;
+    background: #fff;
+    color: #11a8bb;
+    border: 1px solid #11a8bb;
+    box-sizing: border-box;
+}
+section label:nth-child(2){
+    margin-left: 2%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+section label:nth-child(4){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+section input{
+    display: block;
+    height: 38px;
+    width: 47%;
+    background: black;
+    position: relative;
+    left: 0px;
+    float: left;
+    display: none;
+}
+#rad1:checked ~ #lb1{
+    background: #11a8bb;
+    color: #fff;
+}
+#rad2:checked ~ #lb2 {
+    background: #11a8bb;
+    color: #fff;
+}
+.tab1{
+    display: block;
+    color: black;
+    margin-top: 20px;
+}
+.tab2 {
+    display: none;
+    color: black;
+}
+#rad1:checked ~ .tab1{
+    display: block;
+}
+#rad1:checked ~ .tab2{
+    display: none;
+}
+#rad2:checked ~ .tab1{
+    display: none;
+}
+#rad2:checked ~ .tab2{
+    display: block;
+}
+.tab1,.tab2 {
+    width: 100%;
+    height: auto;
+    padding-top: 55px;
+} 
+.tab1 ul li:first-child{
+    border-top: 1px solid #ccc;
+}
+.tab1 ul li,.tab2 ul li{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    padding: 10px;
+    padding-left: 20px;
+}	
+ul li span:nth-child(1){
+    font-size: 16px;
+    float: left;
+}
+ul li span:nth-child(2){
+    margin-left: 5px;
+    font-size: 14px;
+    border: 1px solid red;
+    color: red;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+ul li span:nth-child(5){
+    color: #666;
+    font-size: 12px; 
+    float: left;
+   
+}
+.tab1 ul li input,.tab1 ul li label{
+    display: block;
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/content/radio.png);
+    position: relative;
+    left: 35%;
+    top: -30%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+/*    ;*/
+}
+.tab1 ul li input{ display: none;}
+#ch1:checked ~  .ch1,#ch2:checked ~  .ch2,#ch3:checked ~  .ch3{
+	background-position: 100% 0;
+}
+input[type="button"]{
+    width: 98%;
+    height: 45px;
+    margin-left: 1%;
+    margin-top: 50px;
+    background: #ff9c00;
+    display: block;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    border-radius: 3px;
+}

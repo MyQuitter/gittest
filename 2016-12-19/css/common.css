@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body,html,div,img,nav,section,ul,li{
+    margin: 0;
+    padding: 0;
+}
+.shouye{
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100% - 51px);
+    box-sizing: border-box;
+    margin-bottom: 51px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    color: white;
+    background-color: #fff;
+}
+header{
+    height: 40px;
+    background-color: #11a8bb;
+    text-align: center;
+    font: 100%/40px "微软雅黑";
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 51px;
+    background-color: white;
+    padding-top: 1px;
+    border-top: 1px solid #ccc;
+}
+footer a{
+    display: inline-block;
+    width: 33.333%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    color: #808080;
+    cursor: pointer;
+}
+footer a div{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+footer a span{
+    display: block;
+    box-sizing: border-box;
+    height: 18px;
+    padding-bottom: 3px;
+    
+}
+footer a div{
+    background-size:40px 20px ;
+}
+footer a:nth-child(1) div{
+    background-image: url(../img/content/home-footer@2x.png);
+}
+footer a:nth-child(2) div{
+    background-image: url(../img/content/shoppingCar-footer@2x.png);
+}
+footer a:nth-child(3) div{
+    background-image: url(../img/content/user-footer@2x.png);
+}

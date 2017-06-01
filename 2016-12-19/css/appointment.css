@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*
+*
+*预约支付
+*/
+
+section ul:nth-child(2) li:nth-child(1) div{
+    margin-left: 10px;
+    background-image: url("../img/content/clock2x.png");
+}
+section ul:nth-child(2) li span:nth-child(3){
+    color: #11A8BC;
+}
+.jzk {
+    width: 98%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(98, 122, 154, 0.16);
+    box-sizing: border-box;
+    background: #fff;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.jzk ul li{
+    width: 100%;
+    height: 40px;    
+    line-height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    
+}
+.jzk ul li:nth-child(1){
+    background: #11a8bc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.jzk ul li label {
+    display: block;
+	width: 72px;
+    height: 40px;
+    color: #666;
+    float: left;
+    font-size: 14px;
+}
+.jzk ul li input{
+    border: none;
+    width: calc(100% - 100px);
+    height: 30px;
+    font-size: 15px;
+    outline: none;
+    color: #666;
+}
+.zhifu{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    background: #fff;
+    color: black;
+    box-sizing: border-box;
+}
+.zhifu span:nth-child(2){
+    float: right;
+    color: red;
+    margin-right: 20px;
+    font-size: 18px;
+}
+input[type="button"]{
+    width: 98%;
+    height: 40px;
+    background: #ff9c00;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 1%;
+    border: none;
+    cursor: pointer;
+}

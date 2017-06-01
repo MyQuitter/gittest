@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body{
+    overflow-y: inherit;
+    margin-bottom: 50px;
+}
+header,nav,section,footer{
+    width: 100%;
+}
+header a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/content/arrow_right-consult-white.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    right: 15px;
+}
+nav{
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+nav img{
+    width: 100%;
+    display: block;
+    height:auto;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+section a{
+    display: block;
+    width: 50%;
+    height: 110px;
+    float: left;
+    text-align: center;
+    line-height: 115px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: black;
+}
+section a img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 54px;
+    margin-right: 10px;
+}
+footer a:nth-child(1) div{
+    background-position: 20px 0px;
+}
+footer a:nth-child(1) span{
+    color: #11a8bb;
+}

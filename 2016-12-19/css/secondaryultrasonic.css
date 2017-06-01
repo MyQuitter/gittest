@@ -1,0 +1,136 @@
+@charset "utf-8";
+/*
+*
+*二级B超
+*/
+body{
+    width: 100%;
+}
+.second{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 30px;
+}
+.second a{
+	display: inline-block;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    right: 5px;
+    background: url("../img/content/arrow_right-gray.png");
+    background-position: center;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+.date{
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    background: #fff;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.date input{
+	width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #11a8bb;
+    background:#fff url("../img/content/ico-schedule.png") no-repeat;
+    background-position: 8px 8px;
+    background-size: 24px 24px;  
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-left: 40px;
+    color: #666;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.date span,.span{
+	display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    color: red;
+}
+.Attendancecard {
+	width: 96%;
+    height: 200px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(98, 122, 154, 0.16);
+    box-sizing: border-box;
+}
+.Attendancecard span{
+    display: block;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    background: #11a8bb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.Attendancecard ul li{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.Attendancecard ul li label {
+	width: 72px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    box-sizing: border-box;
+    color: #666;
+}
+.Attendancecard ul li input{
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: #666;
+    margin-left: 10px;
+}
+.footul {
+	width: 100%;
+    height: 40px;
+    background: #fff;
+    color: black;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.footul span:nth-child(2) {
+	float: right;
+    color: red;
+    font-size: 18px;
+}
+input[type="button"]{
+    width: 94%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 3%;
+    background: #ff9c00;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+}

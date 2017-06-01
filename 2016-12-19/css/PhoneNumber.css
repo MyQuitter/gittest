@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*
+*
+*修改手机号码界面
+*/
+section {
+    width: 100%;
+    height: auto;
+    margin-top:15px;
+}
+section ul li{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+section ul li:first-child{
+    border-top: 1px solid #ccc;
+}
+section ul li label,.PhoneNumber label{
+    display: block;
+    width: 66px;
+    height: 45px;
+    color: #11a8bb;
+    line-height: 45px;
+    font-size: 14px;
+    float: left;
+}
+section ul li input{
+    width: calc(100% - 145px);
+    height: 43px;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    outline: none;
+}
+section ul li span{
+    display: block;
+    width: 70px;
+    height: 25px;
+    float: right;
+    background: #11a8bb;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-right: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="button"]{
+    width: 96%;
+    height: 45px;
+    background: #11a8bb;
+    margin-top: 50px;
+    margin-left: 2%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*----------------------------------------------*/
+.section {
+	margin-top: 0;
+}
+.PhoneNumber {
+	width: 100%;
+    height: 45px;
+}
+.PhoneNumber label{
+    margin-left: 10px;
+	color: black;
+}
+.PhoneNumber span{
+    display: block;
+    width: calc(100% - 78px);
+    height: 45px;
+    color: #11a8bb;
+    line-height: 45px;
+    font-size: 14px;
+    float: right;
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*
+*
+*预约挂号信息界面
+*/
+ul li span{
+    display: block;
+    padding-left: 10px;
+}
+ul li label{
+    float: right;
+    margin-right: 10px;
+}
+ul li label:nth-child(1){
+    font-size: 12px;
+    color: #ccc;
+}

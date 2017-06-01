@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+*
+*投诉建议界面
+*/
+
+textarea{
+    
+    height: 130px;
+    width: 94%;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 3%;
+    box-sizing: border-box;
+    color: black;
+    font-size: 14px;
+    resize: none;
+    letter-spacing: normal;
+    padding: 10px;
+}
+section input{
+    width: 94%;
+    height: 45px;
+    margin: 3%;
+    background: #11a8bb;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}

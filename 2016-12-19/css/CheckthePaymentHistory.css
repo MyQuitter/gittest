@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+*
+*历史检查缴费界面
+*/
+body{
+    background: #eeeff1;
+}
+ul li{
+    width: 94%;
+    height: 205px;
+    margin: 15px auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(98, 122, 154, 0.16);
+}
+ul li span:nth-child(1){
+    display: block;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    border-top: 8px solid #11a8bb;
+    color: #11a8bb;
+    border-radius: 5px;
+    line-height: 37px;
+    padding-left: 10px;
+    border-bottom: 2px dotted #ccc;
+}
+ul li div{
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #666;
+}
+ul li div label{
+    width: 72px;
+    display: block;
+    float: left;
+}
